@@ -69,7 +69,7 @@ class SetupHyper(setup.SetupHyper):
 
         self.hyper_fixed_after_source = hyper_fixed_after_source
 
-    def hyper_galaxy_lens_from_result(
+    def hyper_galaxy_lens_from(
         self, result: af.Result, noise_factor_is_model=False
     ):
         """
@@ -114,7 +114,7 @@ class SetupHyper(setup.SetupHyper):
             noise_factor_is_model=noise_factor_is_model,
         )
 
-    def hyper_galaxy_source_from_result(
+    def hyper_galaxy_source_from(
         self, result: af.Result, noise_factor_is_model=False
     ):
         """
