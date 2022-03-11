@@ -90,7 +90,7 @@ class AbstractAgg(ABC):
             A generator that creates an object used in the model-fitting process of a non-linear search.
         """
 
-    def max_log_likelihood_gen(self) -> Generator:
+    def max_log_likelihood_gen_from(self) -> Generator:
         """
         Returns a generator using the maximum likelihood instance of a non-linear search.
 
