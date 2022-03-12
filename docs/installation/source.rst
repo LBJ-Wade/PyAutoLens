@@ -103,7 +103,9 @@ For unit tests to pass you will also need the following optional requirements:
 
    pip install -r PyAutoArray/optional_requirements.txt
 
-If you are using a `conda` environment, add each source repository as follows:
+If you are using a ``conda`` environment, add each source repository as follows:
+
+[NOTE: Certain versions of conda use the command ``conda develop`` (without a dash) instead of those shown below.]
 
 .. code-block:: bash
 
